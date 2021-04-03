@@ -15,7 +15,7 @@ const ResultsItems = ({name, email, username, phone, website}) => {
                         <p><strong>Website:</strong> {website}</p>
                     </div>
                 </div>
-                    <a href="/"><button className="more-info">Más información</button></a>
+                    {/* <a href="/"><button className="more-info">Más información</button></a> */}
             </div>
         </div>
     );
