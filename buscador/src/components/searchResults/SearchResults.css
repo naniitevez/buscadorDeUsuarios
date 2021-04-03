@@ -1,0 +1,14 @@
+.search-results {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    background: #d9d1da;
+}
+
+h3, h5 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 5px;
+}
