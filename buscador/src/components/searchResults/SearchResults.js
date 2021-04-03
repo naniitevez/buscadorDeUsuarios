@@ -1,4 +1,4 @@
-import ResultsItems from "./ResultsItems";
+import ResultsItems from "./ResultsItems/ResultsItems";
 
 const SearchResults = ({results, isSearching}) => {
     return (

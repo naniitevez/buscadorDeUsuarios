@@ -1,0 +1,44 @@
+.search-results {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1rem;
+  background: #833ab421;
+  padding: 10px;
+  border-radius: 7px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-information {
+  display: flex;
+  flex-direction: row;
+}
+
+h4 {
+  background: #833ab436;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
+}
+
+p {
+  margin: 10px 20px;
+}
+
+.more-info {
+  background: linear-gradient(
+    1deg,
+    rgba(0, 226, 218, 0.541) 0%,
+    rgba(66, 66, 188, 0.541) 35%
+  );
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
