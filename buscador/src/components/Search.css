@@ -1,0 +1,13 @@
+.search {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(243, 255, 227);
+  background: linear-gradient(
+    52deg,
+    rgba(243, 255, 227, 1) 0%,
+    rgba(251, 228, 255, 1) 100%
+  );
+}
