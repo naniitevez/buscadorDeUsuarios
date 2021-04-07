@@ -31,11 +31,7 @@ input {
 
 .search-button {
   background: rgb(0,226,219);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 226, 219, 0.9223039557619923) 0%,
-    rgba(66, 66, 188, 0.8354692218684349) 35%
-  );
+  color: #fff;
   height: 30px;
   border-radius: 7px;
   border: none;
@@ -46,13 +42,8 @@ input {
 }
 
 .close-button {
-  background: rgb(132, 58, 180);
-  background: linear-gradient(
-    279deg,
-    rgba(132, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 0.7682423311121324) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background:rgba(253, 29, 29, 0.76);
+  color: #fff;
   height: 30px;
   border-radius: 7px;
   border: none;
@@ -64,19 +55,18 @@ input {
 .search-button:hover {
   background: rgb(0,226,219);
   background: linear-gradient(
-    276deg,
+    180deg,
     rgba(0, 226, 219, 0.9223039557619923) 0%,
-    rgba(66, 66, 188, 0.8354692218684349) 35%
+    rgba(66, 66, 188, 0.8354692218684349) 100%
   );
 }
 
 .close-button:hover {
   background: rgb(132, 58, 180);
   background: linear-gradient(
-    100deg,
-    rgba(132, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 0.7122199221485469) 50%,
-    rgba(252, 176, 69, 1) 100%
+    180deg,
+    rgba(253, 29, 29, 0.76) 0%,
+    rgba(132, 58, 180, 0.67) 100%
   );
 }
 
